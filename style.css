@@ -1,0 +1,39 @@
+h1{
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0.5em;
+}
+#image{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30em;
+    width: 30em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60em;
+    
+}
+#img{
+    margin-left: 110em;
+    margin-top: -31em;
+}
+.click{
+    display: flex;
+    height: 2em;
+    width: 6em;
+    font-size: 5em;
+    justify-content: center;
+    line-height: 2;
+    margin-left: 17em;
+    margin-top: 1.5em;
+    background-color:#000000;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.click:hover{
+    background-color: white;
+    color: black;
+}
